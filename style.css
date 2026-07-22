@@ -365,60 +365,72 @@ h2{
 
 @media (max-width:900px){
 
-.hero-content,
-.cards,
-.trust .container{
-  grid-template-columns:1fr;
-  /* WHY SECTION */
-
-.why-grid{
+  .hero-content,
+  .why-grid,
+  .cards,
+  .trust .container{
+    display:grid;
     grid-template-columns:1fr;
-    gap:40px;
-}
+  }
 
-.why-image{
+  .hero{
+    padding:60px 0;
+  }
+
+  .hero h1{
+    font-size:2.7rem;
+  }
+
+  /* Hero image first */
+  .hero-image{
     order:-1;
-}
+  }
 
-.why-image img{
-    height:320px;
-    object-fit:cover;
-}
-
-/* HERO IMAGE */
-
-.hero-image img{
+  .hero-image img{
     height:380px;
     object-fit:cover;
-}
-}
+  }
 
-.hero{
-  padding:60px 0;
-}
+  /* Why section */
+  .why-grid{
+    gap:40px;
+  }
 
-.hero h1{
-  font-size:2.7rem;
-}
+  .why-text{
+    order:1;
+  }
 
-.hero-image{
-  order:-1;
-}
+  .why-image{
+    order:2;
+  }
 
-.floating-card{
+  .why-image img{
+    height:320px;
+    object-fit:cover;
+  }
+
+  /* Floating card */
+  .floating-card{
     top:15px;
     right:15px;
     width:110px;
     padding:12px;
-}
+  }
 
-.floating-card h2{
+  .floating-card h2{
     font-size:2rem;
-}
+  }
 
-.floating-card p{
+  .floating-card p{
     font-size:.85rem;
-}
+  }
+
+  /* Header */
+  .header .container{
+    flex-direction:column;
+    gap:16px;
+  }
+
 }
 
 .header .container{
