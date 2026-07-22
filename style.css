@@ -350,15 +350,52 @@ h2{
 }
 
 .footer{
-  background:#111827;
-  color:white;
-  text-align:center;
-  padding:50px 20px;
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
 }
 
-.footer p{
-  color:#d1d5db;
-  margin-top:8px;
+.footer-logo{
+    font-size:2rem;
+    font-weight:800;
+    letter-spacing:-0.04em;
+    margin-bottom:6px;
+}
+
+.footer-tagline{
+    color:#D1D5DB;
+    font-size:1.05rem;
+    max-width:550px;
+    margin:0 auto 4px;
+    line-height:1.4;
+}
+.footer-email{
+    margin-top:20px;
+}
+
+.footer-email a{
+    color:#FF7A00;
+    font-weight:700;
+    font-size:1.05rem;
+    transition:.2s;
+}
+
+.footer-email a:hover{
+    color:#FDBA74;
+}
+
+.footer-copy{
+    margin-top:35px;
+    color:#9CA3AF;
+    font-size:.9rem;
+}
+.footer .logo-bake{
+    color:white;
+}
+
+.footer .logo-mate{
+    color:#FF7A00;
 }
 
 /* MOBILE */
@@ -481,4 +518,24 @@ h2{
     color: #ff7a00;
     font-size: 15px;
     font-weight: 600;
+}
+.contact{
+    background:#fff;
+    text-align:center;
+    border-top:1px solid var(--border);
+}
+
+.contact p{
+    color:var(--muted);
+    max-width:650px;
+    margin:0 auto 20px;
+}
+
+.contact-details{
+    margin-top:30px;
+}
+
+.contact-details p{
+    margin-bottom:10px;
+    font-size:1.05rem;
 }
