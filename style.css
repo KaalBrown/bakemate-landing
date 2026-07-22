@@ -325,3 +325,30 @@ h2{
     opacity:1;
     transform:translateY(0);
 }
+.hero-trust {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 32px 0;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 17px;
+    color: #374151;
+    font-weight: 500;
+}
+
+.trust-item span:first-child {
+    color: #ff7a00;
+    font-weight: 700;
+}
+
+.hero-spots {
+    margin-top: 18px;
+    color: #ff7a00;
+    font-size: 15px;
+    font-weight: 600;
+}
