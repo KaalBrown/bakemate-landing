@@ -161,7 +161,7 @@ a{
 }
 /* Menu */
 .menu-toggle{
-    display:none;
+    display:flex;
 }
 
 /* HERO */
@@ -705,4 +705,5 @@ h2{
 .contact-details p{
     margin-bottom:10px;
     font-size:1.05rem;
+}
 }
