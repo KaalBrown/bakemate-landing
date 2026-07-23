@@ -2,13 +2,15 @@
 
 const header = document.querySelector(".header");
 
-// Add shadow when scrolling
+// Header animation on scroll
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 20) {
+
+    if (window.scrollY > 40) {
         header.classList.add("scrolled");
     } else {
         header.classList.remove("scrolled");
     }
+
 });
 
 // Reveal sections on scroll
