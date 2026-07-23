@@ -58,3 +58,14 @@ document.querySelectorAll("details").forEach((detail) => {
         }
     });
 });
+
+const menuButton = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav");
+
+menuButton.addEventListener("click", () => {
+
+    nav.classList.toggle("open");
+
+    menuButton.classList.toggle("active");
+
+});
