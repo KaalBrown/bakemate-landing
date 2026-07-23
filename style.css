@@ -96,7 +96,7 @@ a{
     color: #6B7280;
     letter-spacing: 0.08em;
 }
-/* NAVIGATION */
+/* NAVIGATION , change flex to none to turn naviagation off*/
 
 .nav{
     display:flex;
@@ -161,7 +161,7 @@ a{
 }
 /* Menu */
 .menu-toggle{
-    display:flex;
+    display:none; 
 }
 
 /* HERO */
@@ -522,41 +522,32 @@ h2{
 
 .header .container{
     display:grid;
-    grid-template-columns:auto 1fr auto;
+    grid-template-columns:44px 1fr auto;
     align-items:center;
-    gap:14px;
-}
-
-.logo{
-    justify-self:start;
-    font-size:1.55rem;
+    gap:12px;
 }
 
 .menu-toggle{
-    display:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
     width:44px;
     height:44px;
 
     border:none;
     background:none;
-
     cursor:pointer;
-
     position:relative;
 }
-
 .menu-toggle span{
-
     position:absolute;
-
     left:10px;
 
     width:24px;
     height:3px;
 
     background:#1F2937;
-
     border-radius:999px;
 
     transition:.3s ease;
@@ -587,12 +578,14 @@ h2{
     top:20px;
 }
 
+.logo{
+    justify-self:start;
+    font-size:1.55rem;
+}
+
 .btn{
-
     justify-self:end;
-
     padding:11px 18px;
-
     font-size:.9rem;
 }
 
