@@ -524,9 +524,10 @@ h2{
     display:grid;
     grid-template-columns:44px 1fr auto;
     align-items:center;
-    gap:12px;
+    gap:10px;
 }
 
+/* Hamburger */
 .menu-toggle{
     display:flex;
     align-items:center;
@@ -540,12 +541,13 @@ h2{
     cursor:pointer;
     position:relative;
 }
+
 .menu-toggle span{
     position:absolute;
     left:10px;
 
-    width:24px;
-    height:3px;
+    width:22px;
+    height:2.5px;
 
     background:#1F2937;
     border-radius:999px;
@@ -578,15 +580,28 @@ h2{
     top:20px;
 }
 
+/* Logo */
 .logo{
     justify-self:start;
-    font-size:1.55rem;
+    font-size:1.35rem;      /* was 1.55rem */
 }
 
+/* NZ text */
+.logo-beta{
+    font-size:.6rem;
+    margin-left:6px;
+}
+
+/* Apply button */
 .btn{
     justify-self:end;
-    padding:11px 18px;
-    font-size:.9rem;
+
+    padding:14px 24px;      /* was 11px 18px */
+
+    font-size:1rem;         /* was .9rem */
+
+    font-weight:700;
+    border-radius:22px;
 }
 
 .nav{
